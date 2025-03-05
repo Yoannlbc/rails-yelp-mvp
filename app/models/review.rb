@@ -6,4 +6,6 @@ class Review < ApplicationRecord
   validates :rating, numericality: { in: 0..5 }
 end
 
-
+# class Restaurant < ApplicationRecord
+#   validates :rating, inclusion: { in: [0,1,2,3], allow_nil: false }
+# end
